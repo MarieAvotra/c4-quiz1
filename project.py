@@ -29,8 +29,8 @@ print(a)
 
 """
 The revenue (Millions) and Metascore's columns have missing value
-Revenue:128(lignes)
-Metascore:64(lignes)
+Revenue:128(rows)
+Metascore:64(rows)
 
 print("DROPPED DUPLICATES")
 #Remove duplicate if it exist 
@@ -49,9 +49,9 @@ print(df.columns)
 
 # 1)The highest rated movie in the dataset
 """
-It concerns the Vote's columns 
+It concerns the Rating's columns 
 (so we don't have to drop the Dataset here for 
- avoiding to delete the max value of Vote's columns')
+ avoiding to delete the max value of Rating's columns')
 """
 #Find the maximum rating in the dataset
 print("MAX")
