@@ -3,7 +3,7 @@
 """
 Created on Tue Oct 22 18:24:35 2024
 
-@author: sitraka
+@author: Avotra
 """
 
 print("PROJECT 1")
